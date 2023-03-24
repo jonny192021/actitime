@@ -21,7 +21,7 @@ public class SelectClass {
 		WebElement day = driver.findElement(By.id("day"));
 		WebElement month = driver.findElement(By.id("month"));
 		WebElement year = driver.findElement(By.id("year"));  
-		WebElement year = driver.findElement(By.id("day")) ;
+		WebElement year = driver.1findElement(By.id("day")) ;
 		
 		Select s=new Select(day);
 		Select m=new Select(month);
